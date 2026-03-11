@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 
-namespace Chat.Web.Components.Pages
+namespace Chat.Web.Pages
 {
-    public partial class Chat
+    public partial class Index
     {
         [Inject]
         public IJSRuntime JsRuntime {  get; set; }
